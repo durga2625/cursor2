@@ -1,0 +1,6 @@
+{
+  "name": "Buradakavi Sri Ramya — Portfolio & Scratch Reveal Hero",
+  "description": "Interactive portfolio and resume of Buradakavi Sri Ramya featuring a real-time dry-brush procedural scratch reveal hero.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
