@@ -8,10 +8,12 @@ import { CustomImageModal } from './components/CustomImageModal';
 import { ResumePdfModal } from './components/ResumePdfModal';
 import { ContactModal } from './components/ContactModal';
 import { ProjectData } from './types';
+import defaultHero1 from './assets/images/hero_portrait_1.png';
+import defaultHero2 from './assets/images/hero_portrait_2.png';
 
 // Default generated matching pair
-const DEFAULT_IMAGE_1 = '/src/assets/images/hero_cyber_workspace_1790483805951.jpg'; // Cyber matrix
-const DEFAULT_IMAGE_2 = '/src/assets/images/hero_clean_workspace_1790483838333.jpg'; // Clean studio
+const DEFAULT_IMAGE_1 = defaultHero1; // Cyber matrix
+const DEFAULT_IMAGE_2 = defaultHero2; // Clean studio
 
 export default function App() {
   const [image1Url, setImage1Url] = useState<string>(DEFAULT_IMAGE_1);
